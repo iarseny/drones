@@ -1,0 +1,44 @@
+.cm {
+    margin-top: 20px;
+}
+
+.db {
+    display: block;
+}
+
+.tc {
+    text-align: center
+}
+
+@keyframes animation {
+    0% {
+        font-size: 0.8rem;
+    }
+
+    25% {
+        font-size: 1.2rem;
+    }
+
+    50% {
+        font-size: 1.8rem;
+    }
+
+    75% {
+        font-size: 2.1rem;
+    }
+
+    100% {
+        font-size: 2.5rem;
+    }
+}
+
+
+#main_text {
+    font-size: 2.rem;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+/* KeyFrames */
+
